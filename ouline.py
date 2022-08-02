@@ -1,12 +1,10 @@
 #import beautifulsoup and request here
 
-def displayJobDetails():
-    print("Display job details")
 
 #function to get job list from url 'https://www.monster.com/jobs/search?q={role}&where={location}'
 def getJobList(role,location):
     url = 'https://www.monster.com/jobs/search?q={role}&where={location}'
-    # Complete the missing part of this function here 
+    # Complete the missing part of this function here
 
 #save data in JSON file
 def saveDataInJSON(jobDetails):
